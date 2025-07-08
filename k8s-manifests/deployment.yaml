@@ -17,3 +17,5 @@ spec:
         image: electronic1904.azurecr.io/biradarajaydjangonotesapp:latest
         ports:
         - containerPort: 8000
+      imagePullSecrets:
+      - name: acr-secret
