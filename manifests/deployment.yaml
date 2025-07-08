@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: django
-        image: electronic1904.azurecr.io/biradarajaydjangonotesapp:v1
+        image: electronic1904.azurecr.io/biradarajaydjangonotesapp:$(Build.BuildId)
         ports:
         - containerPort: 8000
 ---
