@@ -34,6 +34,6 @@ stages:
     - task: PublishPipelineArtifact@1
       displayName: Publish Kubernetes manifests
       inputs:
-        targetPath: 'manifests'
+        targetPath: 'k8s-manifests'
         artifact: 'k8s-manifests'
         publishLocation: 'pipeline'
